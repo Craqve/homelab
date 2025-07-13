@@ -13,8 +13,8 @@ services:
       DB_MYSQL_PASSWORD: "npm"
       DB_MYSQL_NAME: "npm"
     volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
+      - ./proxy/data:/data
+      - ./proxy/letsencrypt:/etc/letsencrypt
     depends_on:
       - db
 
@@ -27,7 +27,7 @@ services:
       MYSQL_USER: 'npm'
       MYSQL_PASSWORD: 'npm'
     volumes:
-      - ./mysql:/var/lib/mysql
+      - ./proxy/mysql:/var/lib/mysql
 
 networks: # Proxy Network
     proxy:
