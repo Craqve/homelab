@@ -3,7 +3,7 @@
 Various Homelab stacks, templates, and other resources. Still a * work in progress*. I have a lot of work add to this!
 
 ## Navigation
-* [Proxy](https://github.com/Craqve/homelab/tree/main/media) - Plex, Jellyfin, *arr stack, and more.
+* [Proxy](https://github.com/Craqve/homelab/tree/main/proxy) - Plex, Jellyfin, *arr stack, and more.
 
 ## Hardware
 
@@ -20,9 +20,9 @@ This machine is running my Proxmox Server. Media Storage, arr services, monitori
 
 ### Networking
 #### Info
-*[MikroTik hEX S Router]
-*[NETGEAR 8-Port Gigabit Smart Switch]
-*[NETGEAR 8-Port Gigabit Smart Switch]
+* [MikroTik hEX S Router]
+* [NETGEAR 8-Port Gigabit Smart Switch]
+* [NETGEAR 8-Port Gigabit Smart Switch]
 
 #### Other
 * [EAP610 AP]
