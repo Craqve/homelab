@@ -29,7 +29,7 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
 
-  networks: # Proxy Network
+networks: # Proxy Network
     proxy:
       external: true
 
