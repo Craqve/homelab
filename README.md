@@ -3,7 +3,7 @@
 Various Homelab stacks, templates, and other resources. Still a * work in progress*. I have a lot of work add to this!
 
 ## Navigation
-* [Proxy](https://github.com/Craqve/homelab/tree/main/proxy) - Plex, Jellyfin, *arr stack, and more.
+* [Proxy](https://github.com/Craqve/homelab/tree/main/proxy) - Reverse proxy with a web=based UI for managing Nginx hosts
 
 ## Hardware
 
